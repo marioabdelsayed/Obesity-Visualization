@@ -63,7 +63,7 @@ async function init() {
     .style("font-size", "12px")
     .style("font-weight", "none")
     .style("font-family", "sans-serif")
-    .text("By 2005, Americans started to spend more money on eating out, than eating at home. Click highlighted time span to explroe this trend.");
+    .text("By 2005, Americans started to spend more money on eating out, than eating at home. Click highlighted time period to explore the trend.");
 
 
 
@@ -409,7 +409,7 @@ async function spendingHabitsSlide() {
     .style("font-size", "12px")
     .style("font-weight", "none")
     .style("font-family", "sans-serif")
-    .text("As a result, the fast food industry market size increased by over 40% in the last 10 years and is projected for more. Click the highlighted time period to explore the trend");
+    .text("As a result, the fast food industry market size increased by over 40% in the last 10 years and is projected for more. Click the highlighted time period to explore the trend.");
 
 
 
@@ -486,7 +486,7 @@ async function marketSizeSlide(){
      .style("font-size", "12px")
      .style("font-weight", "none")
      .style("font-family", "sans-serif")
-     .text("is dropping for all restaurants. Nevertheless, Americans continue to consume fast food on a regular bases. The expected CAGR for the industry is 5.1% from 2022 to 2027 ");
+     .text("is dropping for all restaurants. Nevertheless, Americans continue to consume fast food on a regular bases. The expected CAGR for the industry is 5.1% from 2022 to 2027.");
  
 
 
