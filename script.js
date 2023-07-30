@@ -1,5 +1,5 @@
 async function init() {
-    const data = await d3.csv("/us_share-of-adults-who-are-overweight.csv");
+    const data = await d3.csv("us_share-of-adults-who-are-overweight.csv");
     const margin = {top: 70, right: 30, bottom: 40, left: 80};
     const width = 1200 - margin.left - margin.right;
     const height = 500 -margin.top - margin.bottom;
@@ -196,7 +196,7 @@ annotationSpendingSvg.select("rect").on("click",function(){
 
 // Spending Habits slide
 async function spendingHabitsSlide() {
-    const data = await d3.csv("/food-expenditure-per-person.csv",function(d){
+    const data = await d3.csv("food-expenditure-per-person.csv",function(d){
         d.AwayIndicator = parseFloat(d.AwayIndicator);
         d.HomeIndicator = parseFloat(d.HomeIndicator);
         return d;
@@ -426,7 +426,7 @@ async function spendingHabitsSlide() {
     }
 
 async function marketSizeSlide(){
-    const data = await d3.csv("/market-size.csv",function(d){
+    const data = await d3.csv("market-size.csv",function(d){
         d.size = parseFloat(d.MarketSize);
         return d;
     });
